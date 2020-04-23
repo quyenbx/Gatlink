@@ -11,7 +11,7 @@
 #### 1.3. Download source Gatlink
 
 - Tiến hành download source Gatlink <a href="https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts-bundle/3.2.0/gatling-charts-highcharts-bundle-3.2.0-bundle.zip
-" target=_blank">tại đây</a>
+" target="_blank">tại đây</a>
 - Sau khi download được source chúng ta tiến hành giải nén
 - Trong folder gatlink nhận được sau khi giản nén sẽ có cấu trúc như sau
 
