@@ -38,4 +38,65 @@
 
 ![](./img/5.png)
 
+### Sử dụng Gatlink
+
+#### 2.1 Sử dụng Gatling Recorder để quay lại kịch bản mô phỏng thao tác 1 người dùng bình thường
+
+- Chúng ta mở Source của gatlink đã download từ trước đó lên như hình ảnh bên dưới
+
+![](./img/6.png)
+
+- Tiếp theo chúng ta truy cập vào thư mục bin và click chuột phải vào file recorder và chọn Run as administrator
+
+![](./img/7.png)
+
+- Sau thao tác trên có cửa sổ cmd hiện ra thông báo như hình ảnh bên dưới có nghĩa là chúng ta đang gặp lỗi chưa khai báo biến môi trường cho chương trình thực thi
+
+![](./img/8.png)
+
+- Với lỗi này chúng ta xử lý như sau
+
+![](./img/9.png)
+
+![](./img/10.png)
+
+![](./img/11.png)
+
+- Khai báo biến mới với Name là JAVA_HOME và giá trị trỏ tới đường dẫn thư mục cài đặt Java
+
+![](./img/12.png)
+
+![](./img/13.png)
+
+- Khai báo biến mới với Name là GATLING_HOME và giá trị trỏ tới đường dẫn source gatling download về trước đó
+
+![](./img/12.png)
+
+![](./img/14.png)
+
+- Tiếp theo chúng ta chỉnh lại patch trong system variables 
+
+![](./img/15.png)
+
+![](./img/16.png)
+
+- Tạo 2 giá trị mới với tên %JAVA_HOME%\bin và %GATLING_HOME%\bin chúng ta sẽ được kết quả như bên dưới
+
+![](./img/17.png)
+
+- Tiếp theo chúng ta chạy lại file recorder như bước trên, sau khi chạy file recorder thành công sẽ hiển thị 1 cửa sổ như hình ảnh bên dưới
+
+![](./img/18.png)
+
+- Tiếp đến chúng ta chỉnh sửa cấu hình để sử dụng, thay port từ 8000 thành 8001 như ở bước thiết lập proxy trên chrome , đặt tên cho kịch bản
+
+![](./img/19.png)
+
+- Tiếp theo chúng ra click vào nút start ở bên dưới để recorder bắt đầu ghi
+
+
+
+
+
+
 
