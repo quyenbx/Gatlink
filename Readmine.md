@@ -94,6 +94,34 @@
 
 - Tiếp theo chúng ra click vào nút start ở bên dưới để recorder bắt đầu ghi
 
+- Sau khi start chương trình chúng ta sẽ thao tác truy cập vào website như 1 người dùng bình thường thực hiện một số thao tác cơ bản nhu vào trang chủ, đọc bài viết, truy cập admin . Khi thao tác xong chúng ta stop chương trình như hình ảnh bên dưới
+
+![](./img/20.png)
+
+- Khi đó chúng ta sẽ thu được 1 file mô phỏng các thao tác của người dùng như hình ảnh bên dưới
+
+![](./img/21.png)
+
+#### 2.2 Sử dụng gatling test 
+
+- Chúng ta sẽ chạy kịch bản vừa quay được với Gatling test như sau
+
+![](./img/22.png)
+
+- Sau đó chờ một chút sẽ xuất hiện cửa sổ CMD, tiếp đó chúng ta chọn đúng kịch bản vừa quay như ảnh bên dưới
+
+![](./img/23.png)
+
+- Sau khi nhập id và bấm enter thì tiếp tục enter một lần nữa sau đó chờ màn hình chạy trong và trả về kết quả như ảnh bên dưới
+
+![](./img/24.png)
+
+- Copy đường dẫn và truy cập đường dẫn bằng chrome như link ảnh bên dưới
+
+![](./img/25.png)
+
+
+
 
 
 
